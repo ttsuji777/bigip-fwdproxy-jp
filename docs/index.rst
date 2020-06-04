@@ -21,7 +21,8 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 - BIG-IP Forward Proxyにおける基礎知識
 - BIG-IP Forward Proxyの基本設定
-        - HTTP/HTTPS Forward Proxy
+        - HTTP Forward Proxy
+        - HTTPS Forward Proxy
 - BIG-IP Forward Proxyの応用設定
         - xxx
         - xxx
