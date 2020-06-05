@@ -3,11 +3,11 @@ BIG-IP Forward Proxyにおける基礎知識
 
 目次 
 ----------------
-1. 関連するオブジェクト
-2. HTTP Profileの種類
-3. HTTP-Tunnel
-4. Explicit Forward Proxy トポロジー
-5. Transparent Forward Proxy トポロジー
+#. 関連するオブジェクト
+#. HTTP Profileの種類
+#. HTTP-Tunnel
+#. Explicit Forward Proxy トポロジー
+#. Transparent Forward Proxy トポロジー
 
 .. toctree::
    :titlesonly:
