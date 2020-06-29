@@ -20,10 +20,7 @@ F5のオフィシャルなドキュメントはこちらにございます。
 このページでは、以下のコンテンツを発信しております。
 
 - BIG-IP Forward Proxyにおける基礎知識
-- BIG-IP Forward Proxyの基本設定
-
-  - HTTP Forward Proxy
-  - HTTPS Forward Proxy
+- BIG-IP HTTP/HTTPS Forward Proxyの基本設定
 
 .. toctree::
    :maxdepth: 2

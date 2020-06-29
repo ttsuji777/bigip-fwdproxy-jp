@@ -4,7 +4,7 @@
 Proxy Modeを指定するHTTP Profileは、下表の通りです。
 
 .. csv-table::
-   :header: "Proxy Mode","内容"
+   :header: "Proxy Mode","説明"
    :widths: 30, 30
 
    "Reverse (デフォルト)","リバースプロキシとして利用"

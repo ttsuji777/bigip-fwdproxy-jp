@@ -1,4 +1,4 @@
-BIG-IP Forward Proxyの基本設定
+BIG-IP HTTP/HTTPS Forward Proxyの基本設定
 ================================================
 
 目次 
