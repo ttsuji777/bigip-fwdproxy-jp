@@ -1,13 +1,13 @@
 .. You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-BIG-IP Forward Proxy セットアップガイド (基礎編)
+BIG-IP Forward Proxy セットアップガイド
 ==============================================
 
 本ドキュメントでは、BIG-IPのForward Proxy設定について解説します。
 
 はじめに
---------------------------------
+==============================================
 このページでは、これらのオフィシャルなドキュメントの補足となる資料や、複数の機能を組合せてソリューションを実現する方法をご紹介いたします。
 F5のオフィシャルなドキュメントはこちらにございます。
 
@@ -16,7 +16,7 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - F5 DevCentral（コミュニティ）: https://devcentral.f5.com/
 
 コンテンツ
---------------------------------
+==============================================
 このページでは、以下のコンテンツを発信しております。
 
 - BIG-IP Forward Proxyにおける基礎知識
@@ -24,7 +24,8 @@ F5のオフィシャルなドキュメントはこちらにございます。
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目次:
+   :numbered:
    :glob:
 
    content*/content*
