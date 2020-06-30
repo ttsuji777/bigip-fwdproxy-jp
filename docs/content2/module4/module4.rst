@@ -1,4 +1,4 @@
-4. TLSをサポートするTCP Tunnelの設定
+TLSをサポートするTCP Tunnelの設定
 ===========================
 
 TLSをサポートするTCP Tunnelの設定は以下の通りです。
