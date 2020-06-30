@@ -8,7 +8,7 @@
 classname = "F5 Networks Japan Technical Information"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_url = "https://github.com/BeF5/bigip-fwdproxy-jp"
+github_url = "https://github.com/ttsuji777/bigip-fwdproxy-jp"
 
 git_branch_name = 'master'
 
@@ -92,7 +92,7 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = u'F5 Read The Docs'
+project = u'BIG-IP Forward Proxy セットアップガイド'
 copyright = u'F5 Networks, Inc.'
 author = u'F5 Networks, Inc.'
 
