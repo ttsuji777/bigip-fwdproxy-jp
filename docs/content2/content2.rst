@@ -7,6 +7,7 @@ BIG-IP HTTP/HTTPS Forward Proxyの基本設定
    :titlesonly:
    :maxdepth: 2
    :caption: 目次:
+   :numbered:
    :glob:
 
    module*/module*
