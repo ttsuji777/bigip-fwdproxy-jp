@@ -8,7 +8,7 @@
 classname = "F5 Networks Japan Technical Information"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
-github_url = "https://github.com/BeF5/f5j-tech-info"
+github_url = "https://github.com/BeF5/bigip-fwdproxy-jp"
 
 git_branch_name = 'master'
 
@@ -110,7 +110,7 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en'
+language = 'jp'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
