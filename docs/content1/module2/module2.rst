@@ -1,4 +1,4 @@
-2. HTTP Profileの種類
+#. HTTP Profileの種類
 ===========================
 
 Proxy Modeを指定するHTTP Profileは、下表の通りです。
