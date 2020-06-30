@@ -15,13 +15,6 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - F5 Cloud Docs: https://clouddocs.f5.com/
 - F5 DevCentral（コミュニティ）: https://devcentral.f5.com/
 
-コンテンツ
-==============================================
-このページでは、以下のコンテンツを発信しております。
-
-- BIG-IP Forward Proxyにおける基礎知識
-- BIG-IP HTTP/HTTPS Forward Proxyの基本設定
-
 .. toctree::
    :titlesonly:
    :maxdepth: 2
