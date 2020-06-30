@@ -5,7 +5,7 @@
 # ------------
 #
 # REQUIRED: Your class/lab name
-classname = "F5 Networks Japan Technical Information"
+classname = "BIG-IP Forward Proxy セットアップガイド"
 
 # OPTIONAL: The URL to the GitHub Repository for this class
 github_url = "https://github.com/ttsuji777/bigip-fwdproxy-jp"
@@ -29,8 +29,8 @@ import string
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))
 
-year = time.strftime("%Y")
-eventname = "F5 %s Read The Docs Guide" % (year)
+#year = time.strftime("%Y")
+#eventname = "F5 %s Read The Docs Guide" % (year)
 
 # -- General configuration ------------------------------------------------
 
@@ -66,7 +66,7 @@ found = eggs_loader is not None
 
 if found:
   extensions += ['sphinxcontrib.spelling']
-  spelling_lang='en_US'
+  spelling_lang='ja_JP'
   spelling_word_list_filename='../wordlist'
   spelling_show_suggestions=True
   spelling_ignore_pypi_package_names=False
@@ -93,8 +93,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'BIG-IP Forward Proxy セットアップガイド'
-copyright = u'F5 Networks, Inc.'
-author = u'F5 Networks, Inc.'
+copyright = u'F5ネットワークスジャパン合同会社'
+author = u'F5ネットワークスジャパン合同会社'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
