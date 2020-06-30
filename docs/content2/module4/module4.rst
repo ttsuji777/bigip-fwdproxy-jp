@@ -1,4 +1,4 @@
-4. HTTP Profile設定 (Explicit Forward Proxy)
+4. TLSをサポートするTCP Tunnelの設定
 ===========================
 
-Explicit Forward Proxyの設定は、以下の通りです。
+TLSをサポートするTCP Tunnelの設定は以下の通りです。

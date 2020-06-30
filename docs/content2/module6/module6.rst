@@ -1,4 +1,4 @@
-6. Explicit Proxy用Virtual Server設定
+６. HTTP Profile設定 (Explicit Forward Proxy)
 ===========================
 
-Explicit Proxy用のVirtual Serverの設定は、以下の通りです。
+Forward Proxy用SSLプロファイル設定は、以下の通りです。

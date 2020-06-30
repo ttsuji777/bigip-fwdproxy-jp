@@ -1,4 +1,4 @@
-7. アクセス確認
+７. Explicit Proxy用Virtual Server設定
 ===========================
 
-クライアントPCのWebブラウザから正常にアクセスできることを確認します。
+Explicit Proxy用のVirtual Serverの設定は、以下の通りです。
