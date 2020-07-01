@@ -6,7 +6,6 @@ BIG-IP Forward Proxyにおける基礎知識
 .. toctree::
    :titlesonly:
    :caption: 目次:
-   :numbered:
    :glob:
 
    module*/module*

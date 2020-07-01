@@ -6,7 +6,6 @@ BIG-IP HTTP/HTTPS Forward Proxyの基本設定
 .. toctree::
    :titlesonly:
    :caption: 目次:
-   :numbered:
    :glob:
 
    module*/module*
