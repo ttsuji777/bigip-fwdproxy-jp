@@ -29,8 +29,8 @@ import string
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))
 
-#year = time.strftime("%Y")
-#eventname = "F5 %s Read The Docs Guide" % (year)
+year = time.strftime("%Y")
+eventname = "F5 %s Read The Docs Guide" % (year)
 
 # -- General configuration ------------------------------------------------
 
