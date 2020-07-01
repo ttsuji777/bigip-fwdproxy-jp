@@ -14,7 +14,7 @@ Network >> DNS Resolverを選択して、DNSリゾルバを作成します。下
 作成したDNSリゾルバにおいて、Forward Zoneを選択します。
 
 .. figure:: images/mod2-3-2.png
-   :scale: 80%
+   :scale: 100%
    :align: center
 
 
