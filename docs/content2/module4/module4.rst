@@ -1,4 +1,9 @@
 TLSをサポートするTCP Tunnelの設定
 ===========================
 
-TLSをサポートするTCP Tunnelの設定は以下の通りです。
+TLS (SSL)をサポートするTCP Tunnelを設定します。
+
+
+Network >> Tunnelsを選択して、TCP Tunnelを作成します。Forward Proxyとして構成するため、Profileとしてtcp-forwardを指定します。
+.. image:: images/mod2-4.png
+   :scale: 100
