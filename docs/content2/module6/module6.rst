@@ -7,7 +7,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
 
   - Local Traffic >> Profiles >> SSL >> Clientを選択して、クライアントSSL Profileを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
   
-  .. figure:: images/mod2-5-1.png
+  .. figure:: images/mod2-6-1.png
      :scale: 40%
      :align: center
 
@@ -17,7 +17,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
     - CA Certificate Key Chain: "CA証明書の設定"の項で作成したCA証明書およびキーを指定
     - SSL Forward Proxy Bypass: 有効 (Enabled)
 
-  .. figure:: images/mod2-5-2.png
+  .. figure:: images/mod2-6-2.png
      :scale: 40%
      :align: center
   
@@ -29,7 +29,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
     - SSL Forward Proxy: 有効 (Enabled)
     - SSL Forward Proxy Bypass: 有効 (Enabled)
 
-  .. figure:: images/mod2-5-3.png
+  .. figure:: images/mod2-6-3.png
      :scale: 40%
      :align: center
   
@@ -38,7 +38,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
     - Server Certificate: "require..."を選択
     - Trusted Bundled Authority: "ca-bundle.crt"を選択
 
-  .. figure:: images/mod2-5-4.png
+  .. figure:: images/mod2-6-4.png
      :scale: 40%
      :align: center
 
