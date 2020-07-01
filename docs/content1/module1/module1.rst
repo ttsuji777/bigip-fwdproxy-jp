@@ -1,11 +1,14 @@
 関連するオブジェクト
 ===========================
 
-本章では、BIG-IPをForward Proxyで利用する上で必要となる、オブジェクトの概要について紹介します。
+本節では、BIG-IPをForward Proxyで利用する上で必要となる、オブジェクトの概要について紹介します。
 詳細は、下図をご参照ください。
 
-.. image:: images/mod1-1.png
+.. figure:: images/mod1-1.png
    :scale: 40%
+   :align: center
+
+BIG-IPでForward Proxyを構成する際のオブジェクト
 
 - HTTP Explicit Profile
   
