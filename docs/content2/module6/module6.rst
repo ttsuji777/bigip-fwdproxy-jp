@@ -12,7 +12,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
      :align: center
 
 　- SSL Forward Proxyのセクションで以下の設定を行います。
-    
+
     - SSL Forward Proxy: 有効 (Enabled)
     - CA Certificate Key Chain: "CA証明書の設定例"の項で作成したCA証明書およびキーを指定
     - SSL Forward Proxy Bypass: 有効 (Enabled)
