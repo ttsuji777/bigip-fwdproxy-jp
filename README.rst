@@ -23,7 +23,6 @@ F5のオフィシャルなドキュメントはこちらにございます。
 - BIG-IP HTTP/HTTPS Forward Proxyの基本設定
 
 .. toctree::
-   :maxdepth: 2
    :caption: Contents:
    :glob:
 
