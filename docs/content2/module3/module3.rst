@@ -21,5 +21,5 @@ Network >> DNS Resolverを選択して、DNSリゾルバを作成します。下
 Forward　Zoneの名前を". (ドット)"と指定して、BIG-IPがクライアントとして名前解決を行うDNSサーバのアドレスを入力します。
 
 .. figure:: images/mod2-3-3.png
-   :scale: 80%
+   :scale: 60%
    :align: center

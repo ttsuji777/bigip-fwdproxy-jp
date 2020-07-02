@@ -20,7 +20,7 @@ Local Traffic >> Profiles >> Servicesを選択して、HTTP Profileを作成し�
   - Tunnel Names: "TLSをサポートするTCPトンネルの設定"の項で作成したものを選択します。
 
   .. figure:: images/mod2-5-2.png
-     :scale: 80%
+     :scale: 60%
      :align: center
 
 
