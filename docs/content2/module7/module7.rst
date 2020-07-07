@@ -18,5 +18,5 @@ Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成�
      :align: center
 
   .. figure:: images/mod2-7-2.png
-     :scale: 60%
+     :scale: 80%
      :align: center
