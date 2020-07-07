@@ -13,6 +13,10 @@ Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成�
 - Address Translation: 有効 (チェックを入れる)
 - Port Translation: 有効 (チェックを入れる)
 
-  .. figure:: images/mod2-7.png
+  .. figure:: images/mod2-7-1.png
+     :scale: 80%
+     :align: center
+
+  .. figure:: images/mod2-7-2.png
      :scale: 80%
      :align: center
