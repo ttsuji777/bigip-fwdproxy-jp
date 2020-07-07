@@ -217,19 +217,19 @@ htmlhelp_basename =  cleanname + 'doc'
 latex_engine = 'platex'
 latex_use_xindy = False
 
-#front_cover_image = 'front_cover'
+front_cover_image = 'front_cover'
 back_cover_image = 'back_cover'
 
-#front_cover_image_path = os.path.join('_static', front_cover_image + '.png')
+front_cover_image_path = os.path.join('_static', front_cover_image + '.png')
 back_cover_image_path = os.path.join('_static', back_cover_image + '.png')
 
-#latex_additional_files = [front_cover_image_path, back_cover_image_path]
+latex_additional_files = [front_cover_image_path, back_cover_image_path]
 
 template = string.Template(open('preamble.tex').read())
 
 latex_contents = r"""
-#\frontcoverpage
-#\contentspage
+\frontcoverpage
+\contentspage
 """
 
 backcover_latex_contents = r"""
@@ -243,7 +243,7 @@ latex_elements = {
     'preamble': template.substitute(eventname=eventname,
                                     project=project,
                                     author=author,
-                                    #frontcoverimage=front_cover_image,
+                                    frontcoverimage=front_cover_image,
                                     backcoverimage=back_cover_image),
 
     'tableofcontents': latex_contents,
