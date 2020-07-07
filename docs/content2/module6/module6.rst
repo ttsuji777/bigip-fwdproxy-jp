@@ -1,11 +1,11 @@
-SSL Profile設定
+SSLプロファイル設定
 ===========================
 
-Explicit Forward Proxyを構成するクライアントおよびサーバSSL Profileを設定します。
+Explicit Forward Proxyを構成するクライアントおよびサーバSSLプロファイルを設定します。
 
-- クライアントSSL Profile
+- クライアントSSLプロファイル
 
-  - Local Traffic >> Profiles >> SSL >> Clientを選択して、クライアントSSL Profileを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
+  - Local Traffic >> Profiles >> SSL >> Clientを選択して、クライアントSSLプロファイルを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
   
   .. figure:: images/mod2-6-1.png
      :scale: 80%
@@ -22,9 +22,9 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSL Pro
      :align: center
   
 
-- サーバSSL Profile
+- サーバSSLプロファイル
 
-  - Local Traffic >> Profiles >> SSL >> Serverを選択して、サーバSSL Profileを作成します (この例では"serverssl_proxy")。親プロファイル (Parent Profile)として、serversslを指定します。合わせて、以下の設定を行います。
+  - Local Traffic >> Profiles >> SSL >> Serverを選択して、サーバSSLプロファイルを作成します (この例では"serverssl_proxy")。親プロファイル (Parent Profile)として、serversslを指定します。合わせて、以下の設定を行います。
     
     - SSL Forward Proxy: 有効 (Enabled)
     - SSL Forward Proxy Bypass: 有効 (Enabled)

@@ -12,4 +12,4 @@
 .. image:: images/mod2-1-2.png
    :scale: 40%
 
-- HTTPS Forward Proxyの場合は、HTTPにおける設定に加えて、TCPトンネル用のVirtual Serverの設定も必要となります。
+- HTTPS Forward Proxyの場合は、HTTPにおける設定に加えて、前述のHTTPトンネル用のVirtual Serverの設定が必要となります。
