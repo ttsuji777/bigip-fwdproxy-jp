@@ -8,7 +8,7 @@
    :scale: 40%
    :align: center
 
-BIG-IPでForward Proxyを構成する際のオブジェクトaaa
+BIG-IPでForward Proxyを構成する際のオブジェクト
 
 - HTTP Explicit Profile
   
