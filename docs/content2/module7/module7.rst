@@ -1,22 +1,17 @@
-Explicit Proxy用Virtual Server設定
+アクセス確認
 ===========================
 
-Explicit Forward Proxyを構成するVirtual Serverを設定します。このVirtual Serverは、クライアントから見たプロキシサーバとして動作します。
+クライアントPCのWebブラウザから正常にアクセスできることを確認します。この例では https://www.f5.com にアクセスします。
 
-Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成し、以下の設定を行います。
+.. figure:: images/mod2-7-1.png
+   :scale: 80%
+   :align: center
 
-- Destination Address/Mask: クライアントのブラウザで指定するIPアドレス、およびサブネットマスク
-- Service Port: クライアントのブラウザで指定するポート番号
-- HTTP Profile: "HTTP Profile設定"の項で作成したものを指定
-- VLAN and Tunnel Traffic: 必要なVLANとトンネルを指定
-- Source Address Translation: "Automap"もしくは"SNAT"を指定
-- Address Translation: 有効 (チェックを入れる)
-- Port Translation: 有効 (チェックを入れる)
 
-  .. figure:: images/mod2-7-1.png
-     :scale: 80%
-     :align: center
+証明書の詳細を確認すると、"CA証明書の設定例"の項で作成した証明書が利用されていることがわかります。
 
-  .. figure:: images/mod2-7-2.png
-     :scale: 80%
-     :align: center
+.. figure:: images/mod2-7-2.png
+   :scale: 80%
+   :align: center
+
+

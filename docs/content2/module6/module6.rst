@@ -1,45 +1,27 @@
-SSLプロファイル設定
+トンネル用Virtual Server設定
 ===========================
 
-Explicit Forward Proxyを構成するクライアントおよびサーバSSLプロファイルを設定します。
+HTTPS通信においてトンネルを構成するVirtual Serverを設定します。
 
-- クライアントSSLプロファイル
+Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成し、以下の設定を行います。
 
-  - Local Traffic >> Profiles >> SSL >> Clientを選択して、クライアントSSLプロファイルを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
-  
+- Destination Address/Mask: "0.0.0.0/0"を指定
+- Service Port: 通常は"443" (HTTPS)を指定
+- SSL Profile (Client): "SSL Profile設定"の項で作成したClient SSL Profileを指定
+- SSL Profile (Server): "SSL Profile設定"の項で作成したServer SSL Profileを指定
+- Source Address Translation: "Automap"もしくは"SNAT"を指定
+- Address Translation: 無効 (チェックを外す)
+- Port Translation: 無効 (チェックを外す)
+
+
   .. figure:: images/mod2-6-1.png
-     :scale: 80%
+     :scale: 60%
      :align: center
-
-　- SSL Forward Proxyのセクションで以下の設定を行います。
-
-    - SSL Forward Proxy: 有効 (Enabled)
-    - CA Certificate Key Chain: "CA証明書の設定例"の項で作成したCA証明書およびキーを指定
-    - SSL Forward Proxy Bypass: 有効 (Enabled)
 
   .. figure:: images/mod2-6-2.png
-     :scale: 80%
+     :scale: 60%
      :align: center
-  
-
-- サーバSSLプロファイル
-
-  - Local Traffic >> Profiles >> SSL >> Serverを選択して、サーバSSLプロファイルを作成します (この例では"serverssl_proxy")。親プロファイル (Parent Profile)として、serversslを指定します。合わせて、以下の設定を行います。
-    
-    - SSL Forward Proxy: 有効 (Enabled)
-    - SSL Forward Proxy Bypass: 有効 (Enabled)
 
   .. figure:: images/mod2-6-3.png
      :scale: 80%
      :align: center
-  
-  - Server Authenticationのセクションで以下の設定を行います。
-    
-    - Server Certificate: "require..."を選択
-    - Trusted Bundled Authority: "ca-bundle.crt"を選択
-
-  .. figure:: images/mod2-6-4.png
-     :scale: 80%
-     :align: center
-
-

@@ -1,12 +1,27 @@
-TLSをサポートするHTTP Tunnelの設定
+HTTPプロファイル設定
 ===========================
 
-TLS (SSL)をサポートするHTTP Tunnelを設定します。
+Explicit Forward Proxyを構成するHTTPプロファイルを設定します。
+
+Local Traffic >> Profiles >> Servicesを選択して、HTTPプロファイルを作成します。
+
+- General Propertiesのセクションで以下の設定を行います。
+
+  - Proxy Mode: "Explicit"を選択
+  - Parent Profile: "http-explicit"を選択
+
+  .. figure:: images/mod2-4-1.png
+     :scale: 80%
+     :align: center
+
+ - Explicit Proxyのセクションで以下の設定を行います。
+
+  - DNS Resolver: "DNSリゾルバの設定"の項で作成したものを選択します。
+  - Tunnel Names: "TLSをサポートするTCPトンネルの設定"の項で作成したものを選択します。
+
+  .. figure:: images/mod2-4-2.png
+     :scale: 60%
+     :align: center
 
 
-Network >> Tunnelsを選択して、HTTP Tunnelを作成します。ここではForward Proxyとして構成するため、Profileとしてtcp-forwardを指定します。
-
-.. figure:: images/mod2-4.png
-   :scale: 60%
-   :align: center
-
+   

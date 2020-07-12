@@ -14,14 +14,14 @@ Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成�
 - Port Translation: 無効 (チェックを外す)
 
 
-  .. figure:: images/mod2-8-1.png
+  .. figure:: images/mod3-3-1.png
      :scale: 60%
      :align: center
 
-  .. figure:: images/mod2-8-2.png
+  .. figure:: images/mod3-3-2.png
      :scale: 60%
      :align: center
 
-  .. figure:: images/mod2-8-3.png
+  .. figure:: images/mod3-3-3.png
      :scale: 80%
      :align: center

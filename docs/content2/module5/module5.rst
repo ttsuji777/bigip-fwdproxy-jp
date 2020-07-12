@@ -1,27 +1,22 @@
-HTTPプロファイル設定
+Explicit Proxy用Virtual Server設定
 ===========================
 
-Explicit Forward Proxyを構成するHTTPプロファイルを設定します。
+Explicit Forward Proxyを構成するVirtual Serverを設定します。このVirtual Serverは、クライアントから見たプロキシサーバとして動作します。
 
-Local Traffic >> Profiles >> Servicesを選択して、HTTPプロファイルを作成します。
+Local Traffic >> Virtual Serverを選択して新規にVirtual Serverを構成し、以下の設定を行います。
 
-- General Propertiesのセクションで以下の設定を行います。
-
-  - Proxy Mode: "Explicit"を選択
-  - Parent Profile: "http-explicit"を選択
+- Destination Address/Mask: クライアントのブラウザで指定するIPアドレス、およびサブネットマスク
+- Service Port: クライアントのブラウザで指定するポート番号
+- HTTP Profile: "HTTP Profile設定"の項で作成したものを指定
+- VLAN and Tunnel Traffic: 必要なVLANとトンネルを指定
+- Source Address Translation: "Automap"もしくは"SNAT"を指定
+- Address Translation: 有効 (チェックを入れる)
+- Port Translation: 有効 (チェックを入れる)
 
   .. figure:: images/mod2-5-1.png
      :scale: 80%
      :align: center
 
- - Explicit Proxyのセクションで以下の設定を行います。
-
-  - DNS Resolver: "DNSリゾルバの設定"の項で作成したものを選択します。
-  - Tunnel Names: "TLSをサポートするTCPトンネルの設定"の項で作成したものを選択します。
-
   .. figure:: images/mod2-5-2.png
-     :scale: 60%
+     :scale: 80%
      :align: center
-
-
-   

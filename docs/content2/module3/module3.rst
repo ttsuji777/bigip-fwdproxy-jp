@@ -1,25 +1,12 @@
-DNSリゾルバの設定
+TLSをサポートするHTTP Tunnelの設定
 ===========================
 
-BIG-IPのConfiguration Utilityで、DNSリゾルバを設定します。
+TLS (SSL)をサポートするHTTP Tunnelを設定します。
 
 
-Network >> DNS Resolverを選択して、DNSリゾルバを作成します。下図の例では"dns_resolover"という名前のDNSリゾルバを作成しています。
+Network >> Tunnelsを選択して、HTTP Tunnelを作成します。ここではForward Proxyとして構成するため、Profileとしてtcp-forwardを指定します。
 
-.. figure:: images/mod2-3-1.png
-   :scale: 80%
-   :align: center
-
-
-作成したDNSリゾルバにおいて、Forward Zoneを選択します。
-
-.. figure:: images/mod2-3-2.png
-   :scale: 80%
-   :align: center
-
-
-Forward　Zoneの名前を". (ドット)"と指定して、BIG-IPがクライアントとして名前解決を行うDNSサーバのアドレスを入力します。
-
-.. figure:: images/mod2-3-3.png
+.. figure:: images/mod2-3.png
    :scale: 60%
    :align: center
+
