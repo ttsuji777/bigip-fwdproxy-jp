@@ -1,7 +1,7 @@
 CA証明書の設定例
 ===========================
 
-SSL Forward Proxyを構成する場合は、BIG-IPにCA証明書と秘密鍵をインストールします。ここでは、BIG−IP上での設定手順を紹介します。
+SSL Forward Proxyを構成する場合は、BIG-IPにCA証明書と秘密鍵をインストールします。ここでは、BIG−IP上でCLIで設定する手順を紹介します。
 
 .. code-block:: bash
 
@@ -34,5 +34,9 @@ SSL Forward Proxyを構成する場合は、BIG-IPにCA証明書と秘密鍵を�
    tmsh install sys crypto key proxy_ca.key from-local-file /config/ca/proxy_ca.key
 
 
-上記で生成したCA証明書をクライアント端末にインポートします。
+ブラウザでのアクセス時にセキュリティ警告が表示されるのを防ぐため、上記で生成したCA証明書をクライアント端末にインポートします。例えばWindowsの場合、「信頼されたルート証明機関」にBIG-IPが再署名に使用する証明書を追加します。
+
+.. figure:: images/mod3-1.png
+   :scale: 80%
+   :align: center
 

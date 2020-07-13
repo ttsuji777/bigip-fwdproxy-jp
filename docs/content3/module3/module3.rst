@@ -7,8 +7,8 @@ HTTPS通信においてトンネルを構成するVirtual Serverを設定しま�
 
 - Destination Address/Mask: "0.0.0.0/0"を指定
 - Service Port: 通常は"443" (HTTPS)を指定
-- SSL Profile (Client): "SSL Profile設定"の項で作成したClient SSL Profileを指定
-- SSL Profile (Server): "SSL Profile設定"の項で作成したServer SSL Profileを指定
+- SSL Profile (Client): "SSLプロファイル設定"の項で作成したClient SSL Profileを指定
+- SSL Profile (Server): "SSLプロファイル設定"の項で作成したServer SSL Profileを指定
 - Source Address Translation: "Automap"もしくは"SNAT"を指定
 - Address Translation: **無効** (チェックを外す)
 - Port Translation: **無効** (チェックを外す)

@@ -3,7 +3,7 @@ SSLプロファイル設定
 
 Explicit Forward Proxyを構成するクライアントおよびサーバSSLプロファイルを設定します。
 
-- クライアントSSLプロファイル
+- **クライアントSSLプロファイル**
 
   - **Local Traffic >> Profiles >> SSL >> Client** を選択して、クライアントSSLプロファイルを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
   
@@ -22,7 +22,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSLプ�
      :align: center
   
 
-- サーバSSLプロファイル
+- **サーバSSLプロファイル**
 
   - **Local Traffic >> Profiles >> SSL >> Server** を選択して、サーバSSLプロファイルを作成します (この例では"serverssl_proxy")。親プロファイル (Parent Profile)として、serversslを指定します。合わせて、以下の設定を行います。
     

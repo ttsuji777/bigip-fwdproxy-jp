@@ -14,7 +14,7 @@ Explicit Forward Proxyを構成するHTTPプロファイルを設定します。
      :scale: 80%
      :align: center
 
- - Explicit Proxyのセクションで以下の設定を行います。
+ - **Explicit Proxy** のセクションで以下の設定を行います。
 
   - DNS Resolver: "DNSリゾルバの設定"の項で作成したものを選択します。
   - Tunnel Names: "TLSをサポートするTCPトンネルの設定"の項で作成したものを選択します。
