@@ -3,7 +3,7 @@ HTTPプロファイル設定
 
 Explicit Forward Proxyを構成するHTTPプロファイルを設定します。
 
-Local Traffic >> Profiles >> Servicesを選択して、HTTPプロファイルを作成します。
+**Local Traffic >> Profiles >> Services**を選択して、HTTPプロファイルを作成します。
 
 - General Propertiesのセクションで以下の設定を行います。
 

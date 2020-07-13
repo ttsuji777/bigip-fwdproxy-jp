@@ -4,14 +4,14 @@ DNSリゾルバの設定
 BIG-IPのConfiguration Utilityで、DNSリゾルバを設定します。
 
 
-Network >> DNS Resolverを選択して、DNSリゾルバを作成します。下図の例では"dns_resolover"という名前のDNSリゾルバを作成しています。
+**Network >> DNS Resolver**を選択して、DNSリゾルバを作成します。下図の例では"dns_resolover"という名前のDNSリゾルバを作成しています。
 
 .. figure:: images/mod2-2-1.png
    :scale: 80%
    :align: center
 
 
-作成したDNSリゾルバにおいて、Forward Zoneを選択します。
+作成したDNSリゾルバにおいて、**Forward Zone**を選択します。
 
 .. figure:: images/mod2-2-2.png
    :scale: 80%
