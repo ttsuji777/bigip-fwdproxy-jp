@@ -3,7 +3,7 @@
 
 Explicit Forward Proxyを構成するVirtual Serverを設定します。このVirtual Serverは、クライアントから見たプロキシサーバとして動作します。
 
-**Local Traffic >> Virtual Server**を選択して新規にVirtual Serverを構成し、以下の設定を行います。
+**Local Traffic >> Virtual Server** を選択して新規にVirtual Serverを構成し、以下の設定を行います。
 
 - Destination Address/Mask: クライアントのブラウザで指定するIPアドレス、およびサブネットマスク
 - Service Port: クライアントのブラウザで指定するポート番号

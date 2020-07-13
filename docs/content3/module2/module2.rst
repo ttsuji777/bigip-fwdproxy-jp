@@ -5,7 +5,7 @@ Explicit Forward Proxyを構成するクライアントおよびサーバSSLプ�
 
 - クライアントSSLプロファイル
 
-  - **Local Traffic >> Profiles >> SSL >> Client**を選択して、クライアントSSLプロファイルを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
+  - **Local Traffic >> Profiles >> SSL >> Client** を選択して、クライアントSSLプロファイルを作成します (この例では"clientssl_proxy")。親プロファイル (Parent Profile)として、clientsslを指定します。
   
   .. figure:: images/mod3-2-1.png
      :scale: 80%

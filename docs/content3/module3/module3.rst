@@ -3,7 +3,7 @@
 
 HTTPS通信においてトンネルを構成するVirtual Serverを設定します。
 
-**Local Traffic >> Virtual Server**を選択して新規にVirtual Serverを構成し、以下の設定を行います。
+**Local Traffic >> Virtual Server** を選択して新規にVirtual Serverを構成し、以下の設定を行います。
 
 - Destination Address/Mask: "0.0.0.0/0"を指定
 - Service Port: 通常は"443" (HTTPS)を指定
