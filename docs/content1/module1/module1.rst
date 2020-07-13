@@ -8,27 +8,27 @@
    :scale: 40%
    :align: center
 
-BIG-IPでForward Proxyを構成する際のオブジェクト
+   BIG-IPでForward Proxyを構成する際のオブジェクト
 
-- HTTP Explicit Profile
+- **HTTP Explicit Profile**
   
 
   BIG-IPをクライアントから見た明示 (Explicit) プロキシとして設定する場合に利用するプロファイルです。
 
 
-- HTTP Transparent Profile
+- **HTTP Transparent Profile**
 
 
   BIG-IPをクライアントから見た透過 (Transparent) プロキシとして設定する場合に利用するプロファイルです。
 
 
-- DNS Resolver
+- **DNS Resolver**
 
 
   Forward Proxyとして動作するBIG-IPがクエリを行う、DNSサーバのアドレスを指定します。DNSサーバのレスポンスは、BIG-IP内にキャッシュされます。
 
 
-- Virtual Server  
+- **Virtual Server**
   
    
   BIG-IPで、サービスを受け付けるリスナーとして動作します。Virtual Serverで指定したIPアドレスおよびポート番号を、クライアント端末のWebブラウザ等に設定します。

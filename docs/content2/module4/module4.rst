@@ -5,7 +5,7 @@ Explicit Forward Proxyを構成するHTTPプロファイルを設定します。
 
 **Local Traffic >> Profiles >> Services** を選択して、HTTPプロファイルを作成します。
 
-- General Propertiesのセクションで以下の設定を行います。
+- **General Properties** のセクションで以下の設定を行います。
 
   - Proxy Mode: "Explicit"を選択
   - Parent Profile: "http-explicit"を選択
